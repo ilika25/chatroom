@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(141, 192, 240);
+}
+.image {
+  height: 180px;
+  width: 180px;
+  margin-left: 18px;
+  background-image: url("room-removebg-preview.png");
+  background-size: cover;
+}
+.message {
+  height: 650px;
+  width: 70%;
+  border: 2px solid black;
+  margin-top: 15px;
+  overflow-y: scroll;
+}
+.send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70.4%;
+  margin-top: 10px;
+}
+.send input {
+  height: 30px;
+  width: 100%;
+  border: 2px solid black;
+  margin-right: 15px;
+}
+.send button {
+  margin-left: 10px;
+  height: 35px;
+  width: 25%;
+  border: 2px solid black;
+}
+.msg {
+  width: 45%;
+  border: 2px solid black;
+  border-radius: 9px;
+  margin: 8px;
+  overflow-y: visible;
+  padding: 10px;
+  background-color: rgb(114, 202, 168);
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
